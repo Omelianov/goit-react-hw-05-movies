@@ -9,5 +9,4 @@ async function getSearchMovies(query, page = 1) {
     return data;
 
 }
-console.log(getSearchMovies())
 export default getSearchMovies;
