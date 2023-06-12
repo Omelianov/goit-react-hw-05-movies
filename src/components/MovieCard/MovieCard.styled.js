@@ -4,6 +4,7 @@ import { accentTextColor, mainTextColor } from 'utilities/variables/css';
 export const Item = styled.li`
   @media (max-width: 767px) {
     margin-bottom: 50px;
+    border-radius: 5px;
   }
 
   @media (min-width: 768px) {
