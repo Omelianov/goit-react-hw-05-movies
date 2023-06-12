@@ -16,7 +16,7 @@ function Header({ title }) {
       <Container>
         <LogoWrapper>
           <CustomIcon />
-          <Title>{title}</Title>
+          <Title>MOVIES</Title>
         </LogoWrapper>
         <NavigationList>
           <Item>

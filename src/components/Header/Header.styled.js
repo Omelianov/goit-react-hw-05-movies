@@ -2,15 +2,15 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 import { FaFilm } from 'react-icons/fa';
 import {
-    mainGradient,
-    mainHoverEfect,
-    mainTextColor,
-    secondTextColor,
+  mainGradient,
+  mainHoverEfect,
+  mainTextColor,
+  secondTextColor,
 } from 'utilities/variables/css';
 
 export const HeaderWrapper = styled.header`
   background-image: ${mainGradient};
-  padding: 50px 0 50px 0;
+  padding: 10px 0 10px 0;
 `;
 
 export const LogoWrapper = styled.div`

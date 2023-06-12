@@ -1,13 +1,12 @@
 import Container from 'components/Container';
-import { FooterWrapper, Wrapper, Copyright, Studios } from './Footer.styled';
+import { FooterWrapper, Wrapper, Copyright } from './Footer.styled';
 
 function Footer() {
   return (
     <FooterWrapper>
       <Container>
         <Wrapper>
-          <Copyright>© MOVIE.search 2023</Copyright>
-          <Studios>OK</Studios>
+          <Copyright>© MOVIES 2023</Copyright>
         </Wrapper>
       </Container>
     </FooterWrapper>

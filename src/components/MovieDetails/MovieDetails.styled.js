@@ -1,12 +1,12 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 import {
-    accentBgColor,
-    accentTextColor,
-    mainHoverEfect,
-    mainTextColor,
-    secondBgColor,
-    secondTextColor,
+  accentBgColor,
+  accentTextColor,
+  mainHoverEfect,
+  mainTextColor,
+  secondBgColor,
+  secondTextColor,
 } from 'utilities/variables/css';
 
 export const ButtonGoBack = styled.button`
@@ -39,7 +39,7 @@ export const Label = styled.span`
 `;
 
 export const MainWrapper = styled.div`
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
   @media (min-width: 768px) {
     display: flex;
@@ -56,7 +56,7 @@ export const Poster = styled.img`
 
 export const InfoWrapper = styled.div`
   @media (min-width: 768px) {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 `;
 
