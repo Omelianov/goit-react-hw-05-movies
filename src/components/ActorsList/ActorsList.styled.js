@@ -25,9 +25,14 @@ export const PhotoWrapper = styled.div`
   align-items: center;
   height: 375px;
   margin-bottom: 15px;
+
   @media (min-width: 768px) {
     height: 258px;
     width: 172px;
+  };
+  @media (min-width: 1420px) {
+    height: 375px;
+    width: 250px;
   }
 `;
 
