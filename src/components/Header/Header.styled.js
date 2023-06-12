@@ -11,6 +11,7 @@ import {
 export const HeaderWrapper = styled.header`
   background-image: ${mainGradient};
   padding: 10px 0 10px 0;
+  box-shadow: 2px 10px 14px -5px rgba(0, 0, 0, 0.51);
 `;
 
 export const LogoWrapper = styled.div`
