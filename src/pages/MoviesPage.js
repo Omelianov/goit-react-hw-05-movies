@@ -14,19 +14,16 @@ function MoviesPage() {
     useEffect(() => {
         if (query !== '') {
             getSearchMovies(query).then(({ results }) => {
-                const moviesArr = [];
 
-                results.map(
+                const moviesArr = results.map(
                     ({ id, original_title, poster_path, vote_average, vote_count }) => {
-                        const movie = {
+                        return {
                             id,
                             title: original_title,
                             poster: poster_path,
                             voteAverage: vote_average,
                             voteCount: vote_count,
                         };
-
-                        return moviesArr.push(movie);
                     },
                 );
 
