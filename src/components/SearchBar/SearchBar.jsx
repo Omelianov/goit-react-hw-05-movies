@@ -1,11 +1,10 @@
-import { useLocation, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import Container from 'components/Container';
 import { FormSearch, InputSearch, ButtonSubmit } from './SearchBar.styled';
 import { FaSearch } from 'react-icons/fa';
 
 function SearchBar() {
-  const location = useLocation();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [, setSearchParams] = useSearchParams();
 
   function onSubmitForm(e) {
     e.preventDefault();
