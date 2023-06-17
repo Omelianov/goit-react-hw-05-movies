@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import propTypes from 'prop-types';
-import posterBg from '../../utilities/images/poster.jpg';
+import posterBg from '../../utilities/images/poster.png';
 import Container from 'components/Container';
 import {
   ButtonGoBack,
